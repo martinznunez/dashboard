@@ -1,27 +1,15 @@
-# React + TypeScript + Vite
+# Real-Time Data Application with WebSockets
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React application is designed to enable real-time communication with a server using WebSockets, allowing for the seamless updating and rendering of data. In technical terms, the application actively utilizes WebSockets to receive real-time data, persist it within a state, and dynamically render it on cards. Additionally, it empowers users to modify the application state and transmit these changes back to the server. The user interface also provides the convenience of controlling cards through the use of a switch.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Clone the repository to your local machine.
+Inside the server folder, run the following commands:
+npm install
+npm run start
+Inside the client folder, run the following commands:
+npm install
+npm run dev
+To run the tests, execute the following command inside the client folder:
+npm run test
+This will get you up and running with the real-time data application and provide an easy way to test its functionality.
